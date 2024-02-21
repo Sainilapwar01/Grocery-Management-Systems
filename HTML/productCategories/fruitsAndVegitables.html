@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/ProductCategories/ProductCategories.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/store.css">
+
+
+    <link rel="stylesheet" href="/CSS/store.css" />
+    <script src="/JS/store.js" async></script>
+</head>
+
+<body>
+    <header class="header">
+        <img class="headerImage" src="/IMAGES/shop-cart-shop-building-cartoon_138676-2085.webp" alt="" >
+        <a href="#" class="logo"> Fruits & Vegetables</a>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-cart" >
+            
+           
+    
+        <section class="container content-section" >
+                <h2 class="section-header">CART</h2>
+               
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+               
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">₹0</span>
+                </div>
+                <!-- <button class="btn btn-primary btn-purchase" type="button"  value="click me"  onclick= "fun();">PURCHASE</button> -->
+                <a href="/HTML/payment.html" class="btn">PURCHASE</a>
+            </section>
+        </div>
+    
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    
+    </header>
+    <section class="home" id="productHome">
+        <div class="slides-container">
+
+            <!-- <div class="slide active">
+                <div class="content">
+                    <span>fresh and organic Fruits and Vegetables</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Fruits/24646-6-vegetable-photos.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slide active">
+              
+                <div class="content">
+                    
+                    <span class="shop-item-title">fresh and organic Fruits and Vegetables</span>
+                    <h3>upto 50% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                  
+                    <img class="shop-item-image" src="/IMAGES/Fruits/24646-6-vegetable-photos.png" alt="">
+                </div>
+            </div>
+            
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>fresh and organic Vegetables</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Fruits/3-2-vegetable-transparent.png" alt="">
+                </div> -->
+
+                <div class="slide">
+                    <div class="content">
+                        <span class="shop-item-title">fresh and organic Vegetables</span>
+                        <h3>upto 50% off</h3>
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                    <div class="image">
+                        <img class="shop-item-image"  src="/IMAGES/Fruits/3-2-vegetable-transparent.png" alt="">
+                    </div>
+
+            </div>
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>Fresh fresh and organic Fruits</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Fruits/4-2-fruit-png-image.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slide">
+                <div class="content">
+                    <span class="shop-item-title">Fresh fresh and organic Fruits</span>
+                    <h3>upto 50% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                    <img class="shop-item-image" src="/IMAGES/Fruits/4-2-fruit-png-image.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
+
+    </section>
+
+    <section class="features" id="products">
+       
+        <h1 class="heading"><span><pre> our Products </pre></span> </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Fruits/2-pineapple-png-image-download.png" alt="">
+                <span class="shop-item-title"><h3>pineapple</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/Fruits/4-grape-png-image-download-picture.png" alt="">
+                    <span class="shop-item-title"><h3>grapes</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+                    <div class="box">
+                        <img class="shop-item-image" src="/IMAGES/Fruits/14-2-strawberry-png-images.png" alt="">
+                        <span class="shop-item-title"><h3>strawberry</h3></span>
+                       
+                        <div class="shop-item-details">
+                            <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                        </div>
+                    </div>
+            
+        </div>
+
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Fruits/5-orange-png-image-download.png" alt="">
+                <span class="shop-item-title"><h3>orange</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/Fruits/1-banana-png-image.png" alt="">
+                    <span class="shop-item-title"><h3>banana</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+                    <div class="box">
+                        <img class="shop-item-image" src="/IMAGES/Fruits/6-2-lemon-png-image.png" alt="">
+                        <span class="shop-item-title"><h3>lemon</h3></span>
+                       
+                        <div class="shop-item-details">
+                            <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                        </div>
+                    </div>
+
+    </section>
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Fruits/6-2-mango-png-hd.png" alt="">
+                <span class="shop-item-title"><h3>mango</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/Fruits/2-red-apple-png-image.png" alt="">
+                    <span class="shop-item-title"><h3>apple</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+                    <div class="box">
+                        <img class="shop-item-image" src="/IMAGES/Fruits/1-watermelon-png-image.png" alt="">
+                        <span class="shop-item-title"><h3>watermelon</h3></span>
+                       
+                        <div class="shop-item-details">
+                            <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                        </div>
+                    </div>
+           
+        </div>
+
+    </section>
+    <section class="features" id="products">
+        <div class="box-container">
+        <div class="box">
+            <img class="shop-item-image" src="/IMAGES/Fruits/8-pomegranate-png-image.png" alt="">
+            <span class="shop-item-title"><h3>pomegranate</h3></span>
+           
+            <div class="shop-item-details">
+                <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+            </div>
+        </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/1-2-cucumber-png-hd.png" alt="">
+                <span class="shop-item-title"><h3>cucumber</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/Vegetables/12-red-onion-png-image.png" alt="">
+                    <span class="shop-item-title"><h3>red onion</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/13-corn-png-image.png" alt="">
+                <span class="shop-item-title"><h3>corn</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/3-tomato-png-image-picture-download.png" alt="">
+                <span class="shop-item-title"><h3>tomato</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/37-red-chili-pepper-png-image.png" alt="">
+                <span class="shop-item-title"><h3>pepper</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            
+
+    </section>
+
+    <section class="features" id="products">
+        <div class="box-container">
+        <div class="box">
+            <img class="shop-item-image" src="/IMAGES/Vegetables/4-2-carrot-png.png" alt="">
+            <span class="shop-item-title"><h3>carrot</h3></span>
+           
+            <div class="shop-item-details">
+                <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+            </div>
+        </div>
+
+      
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/5-2-eggplant-free-download-png.png" alt="">
+                <span class="shop-item-title"><h3>eggplant</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/Vegetables/6-cabbage-png-image.png" alt="">
+                <span class="shop-item-title"><h3>cabbage</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+    <script src="/JS/fruits.js"></script>
+    <script src="/JS/script.js"></script>
+
+</body>
+</html>

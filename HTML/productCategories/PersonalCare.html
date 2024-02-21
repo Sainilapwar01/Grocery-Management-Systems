@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/ProductCategories/ProductCategories.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <link rel="stylesheet" href="/CSS/store.css" />
+    <script src="/JS/store.js" async></script>
+</head>
+
+<body>
+    <header class="header">
+        <img class="headerImage" src="/IMAGES/shop-cart-shop-building-cartoon_138676-2085.webp" alt="" >
+        <a href="#" class="logo"> Personal Care </a>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+        <div class="shopping-cart" >
+            
+           
+    
+        <section class="container content-section" >
+                <h2 class="section-header">CART</h2>
+               
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+               
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">₹0</span>
+                </div>
+                <!-- <button class="btn btn-primary btn-purchase" type="button"  value="click me"  onclick= "fun();">PURCHASE</button> -->
+                <a href="/HTML/payment.html" class="btn">PURCHASE</a>
+            </section>
+        </div>
+    
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    
+    </header>
+<section class="home" id="productHome">
+
+        <div class="slides-container">
+<!-- 
+            <div class="slide active">
+                <div class="content">
+                    <span>Personal Care </span>
+                    <h3>upto 40% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/PersonalCare/02-09-21_10_19_personal2.png" alt="">
+                </div>
+            </div> -->
+            
+            <div class="slide active">
+                <div class="content">
+                    <span class="shop-item-title">Personal Care </span>
+                    <h3>upto 40% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                    <img class="shop-item-image" src="/IMAGES/PersonalCare/02-09-21_10_19_personal2.png" alt="">
+                </div>
+            </div>
+            
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>Personal Care </span>
+                    <h3>upto 30% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/PersonalCare/personal.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slide">
+                <div class="content">
+                    <span  class="shop-item-title">Personal Care Product </span>
+                    <h3>upto 30% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                    <img class="shop-item-image" src="/IMAGES/PersonalCare/personal.png" alt="">
+                </div>
+            </div>
+
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>Personal Care </span>
+                    <h3>upto 30% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+              
+                <div class="image">
+                    <img src="/IMAGES/PersonalCare/Personal-Care-HDPE.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slide">
+                <div class="content">
+                    <span class="shop-item-title">Personal Cares </span>
+                    <h3>upto 30% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+              
+                <div class="image">
+                    <img class="shop-item-image" src="/IMAGES/PersonalCare/Personal-Care-HDPE.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+    </section>
+    <section class="features" id="products">
+        <h1 class="heading"><span><pre> our Products </pre></span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/71y9jEUNBqL._SL1500_.jpg" alt="">
+                <span class="shop-item-title"><h3>Dettol soap</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/40093722_6-santoor-bathing-soap-sandal-almond-milk.webp" alt="">
+                <span class="shop-item-title"><h3>santoor bathing soap</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/dove-soap-1528262167-3947618.jpg" alt="">
+                <span class="shop-item-title"><h3>dove soap</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/Perfume-Free-Download-PNG.png" alt="">
+                <span class="shop-item-title"><h3>Perfume</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/fogg3323341586.jpg" alt="">
+                <span class="shop-item-title"><h3>fogg marco</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/8901030834158.01-36026220-png.webp" alt="">
+                <span class="shop-item-title"><h3>men's grooming</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+    </section>
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/Dettol Antiseptic Liquid  Bottle Png - 1600x1600.png" alt="">
+                <span class="shop-item-title"><h3>Dettol Antiseptic Liquid  Bottle</h3></span>
+                <br><br><br><br>
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+       
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/PersonalCare/cli0061_1.webp" alt="">
+                    <span class="shop-item-title"><h3>clinic plus</h3></span>
+                    <br><br><br><br>
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img class="shop-item-image" src="/IMAGES/PersonalCare/61cktkNgAgL._SL1500_.jpg" alt="">
+                    <span class="shop-item-title"><h3>Head and shoulders shampoo</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+           
+        </div>
+
+    </section>
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/par0616.webp" alt="">
+                <span class="shop-item-title"><h3>parachute coconut hair oilo</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+       
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/61nctAojOEL._SL1000_.jpg" alt="">
+                <span class="shop-item-title"><h3>colgate toothpaste</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/51vG3VxanCL._SY450_.jpg" alt="">
+                <span class="shop-item-title"><h3>lifebuoy hand sanitizer</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+           
+        </div>
+
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/1948110-8901030788260-01.webp" alt="">
+                <span class="shop-item-title"><h3>closeup thoothpaste</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/61sba4IXe2S._SL1500_.jpg" alt="">
+                <span class="shop-item-title"><h3>almond hair oil</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                <img class="shop-item-image" src="/IMAGES/PersonalCare/71DstQrjeuL._SL1500_.jpg" alt="">
+                <span class="shop-item-title"><h3>dabur chyawanprash</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹100</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+    <script src="/JS/fruits.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
+

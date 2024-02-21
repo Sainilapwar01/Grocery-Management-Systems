@@ -1,0 +1,19 @@
+ .header {
+     position: sticky;
+     top: 0;
+     background-color: rgb(46, 191, 249);
+     text-align: center;
+     padding: 5px 0;
+     color: rgb(255, 246, 246);
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .responsive {
+     width: 20%;
+     height: auto;
+ }
+
+ 

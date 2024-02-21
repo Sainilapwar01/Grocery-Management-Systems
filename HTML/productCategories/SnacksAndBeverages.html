@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/ProductCategories/ProductCategories.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <link rel="stylesheet" href="/CSS/store.css" />
+    <script src="/JS/store.js" async></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <img class="headerImage" src="/IMAGES/shop-cart-shop-building-cartoon_138676-2085.webp" alt="" >
+        <a href="#" class="logo">Snacks And Beverages </a>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+            <form action="" class="search-form">
+                <input type="search" id="search-box" placeholder="search here...">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+        
+            <div class="shopping-cart" >
+                
+               
+        
+            <section class="container content-section" >
+                    <h2 class="section-header">CART</h2>
+                   
+                    <div class="cart-row">
+                        <span class="cart-item cart-header cart-column">ITEM</span>
+                        <span class="cart-price cart-header cart-column">PRICE</span>
+                        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                    </div>
+                   
+                    <div class="cart-items">
+                    </div>
+                    <div class="cart-total">
+                        <strong class="cart-total-title">Total</strong>
+                        <span class="cart-total-price">₹0</span>
+                    </div>
+                    <!-- <button class="btn btn-primary btn-purchase" type="button"  value="click me"  onclick= "fun();">PURCHASE</button> -->
+                    <a href="/HTML/payment.html" class="btn">PURCHASE</a>
+                </section>
+            </div>
+        
+            <form action="" class="login-form">
+                <h3>login now</h3>
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <p>forget your password <a href="#">click here</a></p>
+                <p>don't have an account <a href="#">create now</a></p>
+                <input type="submit" value="login now" class="btn">
+            </form>
+       
+    </header> 
+    <section class="home" id="productHome">
+        <!-- <div class="slides-container">
+            <div class="slide active">
+                <div class="content">
+                    <span>Beverages</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Snacks/drinks-don-fill-empty-calories-16.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slides-container">
+                <div class="slide active">
+                    <div class="content">
+                        <span class="shop-item-title">Beverages Fresh</span>
+                        <h3>upto 50% off</h3>
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                    <div class="image">
+                        <img class="shop-item-image" src="/IMAGES/Snacks/drinks-don-fill-empty-calories-16.png" alt="">
+                    </div>
+                </div>
+            <br><br><br><br><br><br>
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>Beverages</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Snacks/Beverage-Transparent.png" alt="">
+                </div>
+            </div> -->
+
+            <div class="slide">
+                <div class="content">
+                    <span  class="shop-item-title">Fresh Beverages</span>
+                    <h3>upto 50% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                    <img class="shop-item-image"  src="/IMAGES/Snacks/Beverage-Transparent.png" alt="">
+                </div>
+            </div>
+
+            <!-- <div class="slide">
+                <div class="content">
+                    <span>Beverages</span>
+                    <h3>upto 50% off</h3>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="image">
+                    <img src="/IMAGES/Snacks/Beverage-PNG-Clipart.png" alt="">
+                </div>
+            </div> -->
+            <div class="slide">
+                <div class="content">
+                    <span  class="shop-item-title">Beverages</span>
+                    <h3>upto 50% off</h3>
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹549</span></span><br>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+                <div class="image">
+                    <img class="shop-item-image" src="/IMAGES/Snacks/Beverage-PNG-Clipart.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
+        <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
+
+    </section>
+    <section class="features" id="products">
+        <h1 class="heading"><span><pre> our Products </pre></span> </h1>
+        <div class="box-container">
+
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/premium-french-fries-photos-7.png" alt="">
+                <span class="shop-item-title"><h3>premium french fries</h3></span>
+                <br><br><br><br>
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/pop-art-snacks-gourmet-popcorn-19.png" alt="">
+                <span class="shop-item-title"><h3>Pop Art Snacks Gourmet Popcorn</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/potato-chips-one-potato-two-potato-kettle-cooked-chips-snacks-16.png" alt="">
+                <span class="shop-item-title"><h3>potato chips</h3></span>
+                <br><br><br><br>
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/potato-chips-one-potato-two-potato-kettle-cooked-chips-snacks-25.png" alt="">
+                <span class="shop-item-title"><h3>snacks Potato Chips</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/pngtree-two-aluminum-cans-of-energy-drink.-png-image_3576181.jpg" alt="">
+                <span class="shop-item-title"><h3>energy drink</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/pepsi-buffalo-rock-the-premier-provider-beverages-and-food-18.png" alt="">
+                <span class="shop-item-title"><h3>pepsi</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+              
+                <img class="shop-item-image" src="/IMAGES/Snacks/Coca-Cola-Bottle.png" alt="">
+                <span class="shop-item-title"><h3>cold drink</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            
+                <div class="box">
+                  
+                    <img class="shop-item-image" src="/IMAGES/Snacks/40094180_9-mirinda-soft-drink.webp" alt="">
+                    <span class="shop-item-title"><h3>Mirinda soft drinks</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                  
+                    <img class="shop-item-image" src="/IMAGES/Snacks/Coca-Coal-Soda-Transparent.png" alt="">
+                    <span class="shop-item-title"><h3>coca cola soda</h3></span>
+                   
+                    <div class="shop-item-details">
+                        <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                    </div>
+                </div>
+
+            
+        </div>
+
+    </section>
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/download (1).jpg" alt="">
+                <span class="shop-item-title"><h3>pepsi</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/7up-PNG-Isolated-HD.png" alt="">
+                <span class="shop-item-title"><h3>7up</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/purepng.com-cookiescookiessnacksbaked-snacksflour-cookieschocolate-cookies-1411527248919yqkjo.png" alt="">
+                <span class="shop-item-title"><h3>cookies</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+
+    <section class="features" id="products">
+
+        <div class="box-container">
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/Oreo_biscuits_(transparent_background).png" alt="">
+                <span class="shop-item-title"><h3>Oreo biscuits</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/download (3).jpg" alt="">
+                <span class="shop-item-title"><h3>cookies</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+            <div class="box">
+                  
+                <img class="shop-item-image" src="/IMAGES/Snacks/download (4).jpg" alt="">
+                <span class="shop-item-title"><h3>biscuits</h3></span>
+               
+                <div class="shop-item-details">
+                    <span class="shop-item-price" class="price"><span style="font-size:2rem ;">₹99</span></span><br>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <button  class="btn btn-primary shop-item-button" type="button" >Add to cart</button>
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+
+    <script src="/JS/fruits.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>

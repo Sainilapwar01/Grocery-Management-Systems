@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetGoGroceryStore</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- <link rel="stylesheet" href="/CSS/store.css"> -->
+    <!-- <link rel="stylesheet" href="/CSS/cart.css"> -->
+    
+    <link rel="stylesheet" href="/CSS/store.css" />
+    <script src="/JS/store.js" async></script>
+
+
+
+
+</head>
+<body>
+    
+<header class="header" >
+    <!-- logo -->
+    <img class="headerImage"  src="/IMAGES/shop-cart-shop-building-cartoon_138676-2085.webp" alt="" >
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#categories">categories</a>
+        <a href="#reviews">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <!-- logo icons -->
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart" >
+            
+           
+    
+        <section class="container content-section" >
+                <h2 class="section-header">CART</h2>
+               
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+               
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">₹0</span>
+                </div>
+                <!-- <button class="btn btn-primary btn-purchase" type="button"  value="click me"  onclick= "fun();">PURCHASE</button> -->
+                <a href="/HTML/payment.html" class="btn">PURCHASE</a>
+            </section>
+        </div>
+    
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+
+</header> 
+
+    <br><br><br><br>
+    <section class="home" id="home">
+        <div class="content">
+            <!-- <h3>fresh and <span>organic</span> products for your</h3> -->
+             <p style="visibility: hidden;">Welcome to Fresh and Organic Delivery, your one-stop destination for
+                daily essentials and groceries. Get Go has an online hypermarket for stay home grocery shopping and delivery.</p> 
+        </div>
+    </section>
+
+<section class="features" id="features">
+
+    <h1 class="heading"><span><pre>our features</pre></span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/IMAGES/natural-organic-food-background_1284-9919.webp" alt="">
+            <h3>fresh and organic</h3>
+            <p>Organic foods include fresh produce and dairy products </p>
+            <a href="/HTML/features/freshAndOrganic.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/fast-free-delivery-logo-with-delivery-van-truck_1308-46374.webp" alt="">
+            <h3>free delivery</h3>
+            <p>Save time by getting your Groceries free delivered</p>
+            <br><br><br>
+            <a href="/HTML/features/freeDelivery.html" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/people-using-mobile-bank-remittance-money_74855-6617.webp" alt="">
+            <h3>easy payments</h3>
+            <p>All type of payments mode are available</p>
+            <br><br>
+            <a href="/HTML/features/easyPayments.html" class="btn">read more</a>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="categories" id="categories">
+    <h1 class="heading"><span><pre> product categories </pre></span> </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/IMAGES/furits&vegetables.png" alt="">
+            <h3>Fruits & vegitables</h3>
+            <p>upto 45% off</p>
+            <a href="/HTML/productCategories/fruitsAndVegitables.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/Dairy-products.jpg" alt="">
+            <h3>Dairy & Bakery</h3>
+            <p>upto 45% off</p>
+            <a href="/HTML/productCategories/DairyAndBakery.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/personalCare.jpg" alt="">
+            <h3>Personal Care</h3>
+            <p>upto 45% off</p>
+            <a href="/HTML/productCategories/PersonalCare.html" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/snacks.png" alt="">
+            <h3>Snacks & Beverages</h3>
+            <p>upto 45% off</p>
+            <a href="/HTML/productCategories/SnacksAndBeverages.html" class="btn">shop now</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="categories" id="categories" >
+    <a name="reviews"></a>
+    <h1 class="heading"><span><pre> customer's review </pre></span> </h1>
+    <!-- <div class="swiper review-slider"> -->
+        <div class="box-container">
+            <div class="box">
+                <img src="/IMAGES/akshay_kumar.jpg" alt="">
+                <p>Its a very good portal especially in the grocery shopping section. Good variety and good discounts too. </p>
+                <br><br>
+                <h3>Roshan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/akshay_kumar.jpg" alt="">
+                <p>We are busy people having no time to shop. Get Go solves our problem by delivering products at door step WHENEVER we want. </p>
+                <h3>Santosh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="/IMAGES/akshay_kumar.jpg" alt="">
+                <p>I could not find some products anywhere in near by super markets. But I am able to find all the products in Get Go website.</p>
+                <br><br>
+                <h3>Sandesh</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+          
+
+        </div>
+    </div>
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"><span><pre>our blogs</pre></span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="/IMAGES/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2022 </a>
+                </div>
+                <h3>fresh and organic vegitables and fruits</h3>
+                <p>Many consumers equate the word “organic” with foods being “healthier.” However, there is currently no link between eating organic foods..</p>
+                <a href="/HTML/blogs/blog1.html" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/milk-bakery-products.webp" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 5th may, 2022 </a>
+                </div>
+                <h3>Dairy & Bakery</h3>
+                <br><br><br>
+                <p>Milk is an essential part of our lives. Our day often begins and ends with milk, and that’s why choosing the most suitable milk for your loved...</p>
+                <a href="/HTML/blogs/blog2.html" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="/IMAGES/snacksBlog.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 10th may, 2022 </a>
+                </div>
+                <h3>Snacks & Beverages</h3>
+                <br><br><br>
+                <p>One of the most important meals of a day is snacks. You do not want just anything for snacks, you need something tasty, healthy.....</p>
+                <a href="/HTML/blogs/blog3.html" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <!-- <h3> Get Go <i class="fas fa-shopping-basket"></i> </h3> -->
+            <img src="/IMAGES/shop-cart-shop-building-cartoon_138676-2085.webp" alt="" >
+            <p>Get Go Grocery Store, Hanuman peth, Nanded-431601</p>
+            <div class="share">
+                <a href="https://www.facebook.com/sai.nilapwar.5" class="fab fa-facebook-f"></a>
+                <!-- <a href="#" class="fab fa-twitter"></a> -->
+                <a href="https://instagram.com/rocking__rohan?igshid=YmMyMTA2M2Y=" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/sai-nilapwar-747aa0228" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>+91-123-456-7890</a>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>+91-123-456-7890</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> getgogrocery@gmail.com </a>
+            <pre><a href="/HTML/map/map.html" target="_main" class="links"> <i class="fas fa-map-marker-alt"></i> Nanded, India - 431601</a></pre>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#reviews" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- custom js file link - for customers review swaping (external .js files hosted by a third party) -->
+<script src="/JS/script.js"></script>
+<!-- <script src="/JS/cart.js"></script> -->
+
+</body>
+</html>
